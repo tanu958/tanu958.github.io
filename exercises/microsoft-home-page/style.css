@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: "Roboto:ital", sans-serif;
+    font-size: 20px;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding:20px 0px;
+}
+
+.microsoft-img{
+    flex:1;
+    display: flex;
+}
+
+.microsoft-img img{
+    width: 120px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.main-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 0px;
+}
+
+.header-links-container {
+    flex: 5;
+    /*list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+}
+
+.nav-links-container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.icons-links-container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none
+}
+
+.header-icons {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header-icons .icon-item {
+    margin-right: 20px;
+}
+.show-case {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://i.ibb.co/zGSDGCL/slide1.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  background-position: center;
+}
+
+.show-case-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.home-cards-container {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 20px;
+}
+.home-card{
+    width:24%
+}
+
+.home-card img{
+    width: 100%;
+}
+h3{
+    font-weight: bold;    
+}
+
+.xbox{
+    background-image:url("https://i.ibb.co/tBJGPD9/xbox.png");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 30px;
+}
+
+.xbox-content{
+    width: 35%;
+    font-size: 25px;
+    padding: 50px 0 0 30px;
+}
+
+.home-cards-container {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 20px;
+}
+.home-card{
+    width:24%
+}
+
+.home-card img{
+    width: 100%;
+}
+.home-card h3{
+    font-weight: bold;
+    font-size: 25px; 
+    margin: 20px 0 10px 0;   
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.carbon-section{
+    background-image: url("https://i.ibb.co/72cgtsz/carbon.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+.carbon-section-content{
+    color:whitesmoke;
+    width:50%;
+    padding: 0px 0 0 30px;
+    font-size: 25px;
+}
+
+.follow-content{
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+    align-items: center;
+}
+
+.btn {
+    background-color:#262626;
+    color: #fff;
+    width: 160px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+
+.carbon-section .btn{
+    background-color: white;
+    color:#262626;
+    padding: 15px 0;
+    width: 180px;
+}
+
+.home-card a{
+    color: #0067b8;
+    display: block;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-header ul li:hover {
+    cursor: pointer;
+    /* margin-bottom: initial; */
+    border-bottom: 2px solid #262626;
+
+}
+
+.main-header ul li{
+    border-bottom: 2px solid transparent;
+}
+
+.home-card p{
+    font-size: 15px;
+}
+
+.main-links-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin:auto;
+        
+}
+
+.links-container li{
+    list-style: none;
+    font-size: 17px;
+    padding: 8px;
+}
+.footer{
+    background-color: #f2f2f2;
+    color:#616161;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+
+.footer-inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+
+.footer-inner-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-inner-container li{
+    margin: 20px 0 0 30px;
+    padding: 5px;
+}
