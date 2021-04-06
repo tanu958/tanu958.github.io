@@ -7,27 +7,141 @@
 }
 
 body{
-    font-family: "Roboto", sans-serif;
-    background-image: linear-gradient(to right, #e53935, #e35d5b);
+    font-family: "Roboto slab", sans-serif;
+    /*background-image: linear-gradient(to right, #e53935, #e35d5b);*/
+    background-color: #272727;
+    --textcolor: #101010
 }
 
 .main-container{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .main-container-1{
     flex:1;
-    color: white;
+    color:#898A94;
     width: 80%;
+    padding: 3% 9% 3% 18%;
 }
 .main-container-2{
-    flex: 0.8;
+    flex: 1.5;
     flex-wrap: wrap;
     background-color: #333;
+    color: #C0B9B8;
 }
 
 .header-section{
     text-align: left;
+    text-transform: none;
+    
+}
+h1{
+    margin: 10px 0;
 }
 
+p{
+    margin: 20px 0;
+}
+ h2{
+     margin: 20px 0;
+ }
+ .input-form-container{
+     display: flex;
+     font-size: 15px;
+     line-height: 20px;
+     flex-wrap: wrap;
+ }
+.input-form-content{
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+input[type="text"],input[type="email"]{
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    min-width: 150px;
+
+}
+.checkbox{
+    display: inline;
+    margin: 12px 0;
+}
+button{
+    padding: 15px 30px;
+    margin: 15px 0;
+    font-size: 25px;
+}
+.img-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.img-logo img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+h3{
+    margin: 20px 0 12px 30px;
+}
+
+.figma-btn{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 100px;
+
+}
+
+.feature-icon{
+    margin: 10px;
+
+}
+.share{
+    margin-left: 30px;
+}
+
+.icon-1{
+    margin-left: 30px;
+}
+.guest-for-webinar{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+.figma-img{
+    display: block;
+    width: 20px;
+}
+.figma-text{
+    display: block;
+}
+textarea{
+    padding: 7px;
+}
+
+select{
+    min-width: 150px;
+    width: 40px;
+    padding: 8px;
+
+}
+select:focus{
+    outline: none;
+}
+.label{
+    display: flex;
+}
