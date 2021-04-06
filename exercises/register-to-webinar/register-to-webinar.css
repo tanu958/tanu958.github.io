@@ -125,9 +125,16 @@ h3{
 .figma-img{
     display: block;
     width: 20px;
+    text-align: right;
 }
 .figma-text{
     display: block;
+    justify-content: right;
+}
+button.figma-btn {
+    padding: 15px 30px;
+    margin: 15px 0;
+    font-size: 25px;
 }
 textarea{
     padding: 7px;
