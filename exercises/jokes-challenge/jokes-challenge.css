@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    background-image: url("https://thumbs.dreamstime.com/b/young-woman-tears-crying-laughing-out-loud-gesturing-woman-crying-laughing-out-loud-154500151.jpg");
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 80px;
+    margin: 0;
+}
+.container{
+    background-color: rgb(219, 80, 80);
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 700px;
+    height: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+h3{
+    opacity: 0.5;
+    letter-spacing: 1px;
+    color:whitesmoke;
+    
+}
+
+.joke{
+    font-size:30px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    margin: 10px;
+    max-width: 600px;
+}
+.btn {
+    background-color: #9f68e0;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.btn:active {
+    transform: scale(0.98);
+}
+  
+.btn:focus {
+    outline: 0;
+}
