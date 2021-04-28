@@ -14,7 +14,7 @@ body {
     font-family: 'Oswald', sans-serif;
     color: var(--textColor);
     background-image: url("https://miro.medium.com/max/1100/1*OlgqUIhvl5-9dZISlZ2-yQ.jpeg");
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
     
@@ -111,4 +111,8 @@ ul li {
     font-size: 30px;
     list-style: none;
     color: black;
+}
+.ul-class li{
+    font-size: 2px;
+
 }
