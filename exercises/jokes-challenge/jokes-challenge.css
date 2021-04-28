@@ -25,22 +25,24 @@ body{
     padding: 20px 20px;
     text-align: center;
     max-width: 100%;
-    width: 700px;
-    height: 400px;
+    width:500px;
+    height: 350px;
+    margin-left: 80px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 h3{
     opacity: 0.5;
     letter-spacing: 1px;
-    color:whitesmoke;
+    color:lime;
+    font-size: 40px;
     
 }
 
 .joke{
-    font-size:30px;
+    font-size:25px;
     letter-spacing: 1px;
     color: whitesmoke;
-    margin: 10px;
+    margin: 30px;
     max-width: 600px;
 }
 .btn {
@@ -49,9 +51,10 @@ h3{
     border: 0;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-    padding: 10px 40px;
-    font-size: 16px;
+    padding: 20px 40px;
+    font-size: 22px;
     cursor: pointer;
+    margin:60px;
 }
   
 .btn:active {
