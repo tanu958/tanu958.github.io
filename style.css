@@ -105,6 +105,10 @@ align-items: stretch | flex-start | flex-end | center | space-betwen| baseline;
 }
 
 ul li {
-    margin-left: 10px;
+    margin-right: 40px;
     font-size: 30px;
+    text-align: right;
+    font-size: 30px;
+    list-style: none;
+    color: black;
 }
