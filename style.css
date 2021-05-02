@@ -15,7 +15,7 @@ body {
     color: var(--textColor);
     background-image: url("https://miro.medium.com/max/1100/1*OlgqUIhvl5-9dZISlZ2-yQ.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     overflow-x: hidden;
     
 }
