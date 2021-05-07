@@ -19,6 +19,9 @@ body {
     overflow-x: hidden;
     
 }
+background-image{
+    width: 100%;
+}
 .main-header {
     background-color: var(--secondaryColor);
     padding: 12px 18px;
